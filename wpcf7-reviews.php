@@ -4,7 +4,7 @@
  * Plugin Name: Reviews for WPCF7
  * Plugin URI: https://github.com/nikolays93/reviews-and-questions
  * Description: Add site reviews and questions support with contact form 7.
- * Version: 2.0
+ * Version: 1.0
  * Author: NikolayS93
  * Author URI: https://vk.com/nikolays_93
  * Author EMAIL: NikolayS93@ya.ru
