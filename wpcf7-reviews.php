@@ -24,10 +24,6 @@ if( ! defined( 'NikolayS93\Reviews\REVIEW_MARK' ) ) {
 
 require_once ABSPATH . "wp-admin/includes/plugin.php";
 
-if (version_compare(PHP_VERSION, '5.3') < 0) {
-    throw new \Exception('Plugin requires PHP 5.3 or above');
-}
-
 add_action( 'plugins_loaded', function() {
     load_plugin_textdomain( 'wpcf7-reviews', false, basename(__DIR__) . '/languages/' );
 
