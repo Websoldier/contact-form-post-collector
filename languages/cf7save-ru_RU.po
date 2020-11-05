@@ -1,26 +1,34 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: plugin\n"
-"POT-Creation-Date: 2020-03-13 15:04+0400\n"
-"PO-Revision-Date: 2020-03-13 15:04+0400\n"
+"Project-Id-Version: Contact form post collector\n"
+"POT-Creation-Date: 2020-11-05 16:41+0400\n"
+"PO-Revision-Date: 2020-11-05 16:41+0400\n"
 "Last-Translator: Nikolays93 <nikolays93@ya.ru>\n"
 "Language-Team: NikolayS93 <NikolayS93@yandex.ru>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.4.1\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Poedit-KeywordsList: __;__e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
 
-#: languages/__lang.php:3
-msgid "Reviews for WPCF7"
-msgstr "Отзывы для WPCF7"
+#: index.php:77
+msgid "Post type not registred."
+msgstr "Тип записи не зарегистрирован."
 
-#: languages/__lang.php:4
+#: languages/plugin-description.php:8
+msgid "Contact Form post collector"
+msgstr "Contact Form сборщик записей"
+
+#: languages/plugin-description.php:9
 msgid "Add site reviews and questions support with contact form 7."
 msgstr "Добавляет поддержку отзывов и вопросов на сайт для contact form 7."
+
+#~ msgid "Reviews for WPCF7"
+#~ msgstr "Отзывы для WPCF7"
