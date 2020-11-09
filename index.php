@@ -95,7 +95,7 @@ if ( ! function_exists( 'cf_save_post_when_sent' ) ) :
 
 		array_walk(
 			$posted_data,
-			function( $value, $key ) use ( &$_post ) {
+			function( $value, $key ) use ( &$_post, $builtin_fields ) {
 
 				if ( in_array( $key, $builtin_fields, true ) ) {
 					$_post[ $key ] = $value;
